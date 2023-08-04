@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <style type="text/css">
+            body {
+                background: black;
+                color: white;
+            }
+            div.container {
+                max-width: 500px;
+                margin: 100px auto;
+                border: 20px solid white;
+                text-align: center;
+            }
+            h4 {
+                text-transform: uppercase;
+            }
+            #cat-pic {
+                margin: auto;
+                object-fit: contain;
+            } 
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h4>Cat Gif of the Day</h4>
+            <img src="{{url}}" id="cat-pic" width="300px" />
+            <p><small>Courtesy: <a href="https://www.womansday.com/life/g32979681/cute-cat-photos/">Woman's Day</a></small></p>
+        </div>
+    </body>
+</html>
